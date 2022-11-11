@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Sono', sans-serif;
+}
+
+#container{
+    background: #0d1a2d;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+#card {
+    padding: 20px;
+    border-radius: 10px;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:#15283f ;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 336);
+}
+
+#card div h1{
+    font-size: 20px;
+}
+
+#card div p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #667d95;
+}
+
+#valor{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#valor .eth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.eth h3{
+    font-size: 15px;
+}
+
+#valor i,h3{
+    color: #33dde1;
+}
+
+#valor .dias{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+#valor .dias i,h4{
+    color: #667d95;
+}
+
+#user {
+    border-top: 1px solid #2c3c4e;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+}
+
+#user img{
+    border-radius: 50%;
+    width: 40px;
+    border: 1px solid rgb(255, 255, 255);
+}
